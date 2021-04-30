@@ -203,13 +203,21 @@
 //  }
  
 
-//не придумал 
- let user =prompt("Решите пример 2 + 2 * 2");
- let value=String(6);
+// //не придумал 
+//  let user =Number(prompt("Решите пример 2 + 2 * 2"));
+//  let value=6;
  
-for(value!==user;a++){
-    let user = prompt("Решите пример 2 + 2 * 2");
-    if(v==m){
-        alert("правильно!!!")
-    }   
-}
+// for(user;value!==user;value==user){
+//     let user = prompt("Решите пример 2 + 2 * 2");
+//     if(value==user){
+//         alert("правильно!!!")
+//     }   
+// }
+
+let us =Number(prompt("Решите пример 2 + 2 * 2"));
+let result =6;
+do{
+    us;
+if(result==us);
+alert("Правильно")
+}while(result!==us)
