@@ -36,9 +36,9 @@
 // num --;
 
 // //Запросить число у пользователя, возвести его в квадрат и вывести
-//  let x = prompt ("Введите число");
-//  x *= x;
-//  console.log(x);
+//  const x =Number( prompt ("Введите число"));
+//  let y = x ** 2;
+//  console.log(y);
 
 //  //Вывести среднее арифметическое двух чисел. Числа спрашивать у пользователя.
 // alert ('Нужно ввести два числа');
@@ -61,31 +61,28 @@
 // alert(greeting + userName);
 // alert
 // // Спросить переменную у юзера. Если переменная равна числу 10, то выведите 'Верно', иначе выведите 'Неверно'.
-//  let valueuser =( prompt( ));
-// //  let value=Number(10);
-//  let num6 = "Верно";
-//  let num7 = "Не верно";
-//  if(valueuser == 10){
-//      console.log( num6);
-//  }
-//  else console.log(num7);
+// let valueuser = Number(prompt("Введите число"));
+// const value = Number(10);
+// let num6 = "Верно";
+// let num7 = "Не верно";
+// if (valueuser === value) {
+//     console.log(num6);
+// } else console.log(num7);
 
-//  alert
+// alert
 
 //  //Напишите две проверки.
 // Если переменная test равна true, то выведите 'Верно', иначе выведите 'Неверно'.
 // Если переменная test не равна true, то выведите 'Верно', иначе выведите 'Неверно'
 // Проверьте работу скрипта при test, равном true, false.
 
-// let test =false;
-// if(test ==true){
+// let test = false;
+// if (test === true) {
 //     console.log("Верно");
-// }
-// else console.log("Не верно");
-// if(test!==true){
+// } else console.log("Не верно");
+// if (test !== true) {
 //     console.log("Верно");
-// }
-// else console.log("НЕ верно");
+// } else console.log("НЕ верно");
 
 // alert
 // //Вычислить сумму покупки с учетом скидки. Скидка 3% предоставляется, если сумма покупки больше 500 грн., а скидка 5% - если сумма покупки больше 800 грн. Сумму покупки вводит юзер.
@@ -93,16 +90,14 @@
 
 
 
-// if(summa > 500){
-//     summa = summa-(summa/100)*3;
+// if (summa > 500) {
+//     summa = summa - (summa / 100) * 3;
 //     console.log(summa);
-    
-// }
-// else if(summa > 800){
-//     summa = summa-((summa/100)*5);
+
+// } else if (summa > 800) {
+//     summa = summa - ((summa / 100) * 5);
 //     console.log(summa);
-// }
-// else console.log(summa);
+// } else console.log(summa);
 
 
 // alert
@@ -133,41 +128,43 @@
 
 //  // Вывод чисел от 10 до 50, которые кратны 5
 // let g = Number(10);
-// let i;
-// console.log(g);
-// for(i= 10;i<=50;i++){
-//     g++;
-//     if(g % 5 == 0){
-    
-//         console.log(g);}
+
+
+// for (let i = 10; i <= 50; i++) {
+
+//     if (i % 5 == 0) {
+
+//         console.log(i);
 //     }
-// let w = Number(10);
-// console.log(w);
-// while(w <= 50){
-//     w++;
-//     if(w % 5 == 0){
-    
-//         console.log(w);}
-    
 // }
-//  let o =Number(10);
-//  console.log(o);
-//  do{
+// let w = Number(10);
+
+// while (w <= 50) {
+
+//     if (w % 5 === 0) {
+
+//         console.log(w)
+//     }
+//     w++;
+// }
+// let o = Number(10);
+// console.log(o);
+// do {
 //     o++;
-//      if(o % 5 ==0){
-//          console.log(o);
-        
-//      }
-//  }while(o<=50);
+//     if (o % 5 === 0) {
+//         console.log(o);
+
+//     }
+// } while (o <= 50);
 
 
 
- //Найти сумму чисел в пределах от 1 до 100.
-//  let p =Number(1);
-//  let l;
-//  for(l=2;l<=100;l++){
-//     p+=l;
-//     console.log(p); 
+//Найти сумму чисел в пределах от 1 до 100.
+// let p = Number(1);
+
+// for (let i = 2; i <= 100; i++) {
+//     p += i;
+//     console.log(p);
 
 //  } 
 // let q = Number(1);
@@ -181,7 +178,7 @@
 //  let n =Number(1);
 //  let r =Number(1);
 //  do{
-     
+
 //          r++;
 //          n+=r;
 //          console.log(n);
@@ -189,35 +186,36 @@
 //  while(r<=100)
 
 
- //предлагать пользователю решить пример (2 + 2 * 2) до тех пор, пока он его не решит
+//предлагать пользователю решить пример (2 + 2 * 2) до тех пор, пока он его не решит
 
 //  let m =prompt("Решите пример 2 + 2 * 2");
 //  let v=String(6);
 //  while(v!==m){
 //     let m =prompt("Решите пример 2 + 2 * 2");
-   
+
 //  if(v==m){
 //     alert("правильно!!!")
 // } 
 
 //  }
- 
+
 
 // //не придумал 
-//  let user =Number(prompt("Решите пример 2 + 2 * 2"));
-//  let value=6;
- 
-// for(user;value!==user;value==user){
-//     let user = prompt("Решите пример 2 + 2 * 2");
-//     if(value==user){
-//         alert("правильно!!!")
-//     }   
-// }
+ let user =Number(prompt("Решите пример 2 + 2 * 2"));
+ let value=6;
 
-let us =Number(prompt("Решите пример 2 + 2 * 2"));
-let result =6;
-do{
-    us;
-if(result==us);
-alert("Правильно")
-}while(result!==us)
+for(;value!==user;){
+    let user = prompt("Решите пример 2 + 2 * 2");
+    if(value==user){
+        alert("правильно!!!")
+    }   
+}
+
+// let x 
+// const result = 6;
+
+// do {
+//     x = Number(prompt("Решите пример 2 + 2 * 2"));
+
+// } while (result !== x);
+// alert("Правильно");
